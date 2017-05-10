@@ -43,7 +43,7 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: 'The EU Brexit guidelines decoded',
+  title: 'The memo recommending James Comey’s dismissal, decoded',
 
   // meta data
   description: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
@@ -70,7 +70,7 @@ export default () => ({ // eslint-disable-line
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1400',
   twitterCreator: '@ft',
   tweetText: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
-  twitterHeadline: 'The full text of the EU guidance on the Brexit negotiations',
+  twitterHeadline: '',
 
   // FACEBOOK
   facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1400',
