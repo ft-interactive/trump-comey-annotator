@@ -27,7 +27,7 @@ export default () => ({ // eslint-disable-line
   },
 
   mainImage: {
-    title: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=2048&height=1152',
+    title: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1152',
     description: '',
     url: '',
     width: 2048, // ensure correct width
@@ -62,18 +62,18 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1400',
   socialHeadline: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
   // socialSummary: 'The UK's Article 50 notification letter, annotated',
 
   // TWITTER
-  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1400',
   twitterCreator: '@ft',
   tweetText: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
   twitterHeadline: 'The full text of the EU guidance on the Brexit negotiations',
 
   // FACEBOOK
-  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A451abb82-356c-11e7-99bd-13beb0903fa3?source=ig&width=2048&height=1400',
   facebookHeadline: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
 
   tracking: {
