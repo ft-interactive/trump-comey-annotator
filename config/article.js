@@ -5,20 +5,20 @@ export default () => ({ // eslint-disable-line
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/federal-reserve-march-meeting-2017 get filled in by the ./configure script
-  url: 'https://ig.ft.com/non-paper-annotated/',
+  url: 'https://ig.ft.com/trump-comey-memo/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Brussels’ opening Brexit bid - annotated',
+  headline: 'The memo recommending James Comey’s dismissal, decoded',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'How to read between the lines of the European Commission’s negotiating paper',
+  summary: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
 
   topic: {
-    name: 'Brexit',
-    url: 'https://www.ft.com/topics/themes/Brexit',
+    name: 'James Comey',
+    url: 'https://www.ft.com/topics/people/James_Comey',
   },
 
   relatedArticle: {
@@ -37,16 +37,16 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Alex Barker', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDY3Mg==-QXV0aG9ycw==' },
-    { name: 'David Blood', url: 'https://www.ft.com/david-blood' },
+    { name: 'Peter Spiegel', url: '' },
+    { name: 'Brooke Masters', url: '' },
+
   ],
 
   // Appears in the HTML <title>
   title: 'The EU Brexit guidelines decoded',
 
   // meta data
-  description: 'The full text of the European Council\'s guidance for handling' +
-    'Britain\'s withdrawal',
+  description: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
 
   /*
   TODO: Select Twitter card type -
@@ -63,19 +63,18 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
-  socialHeadline: 'The full text of the EU guidance on the Brexit negotiations',
+  socialHeadline: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
   // socialSummary: 'The UK's Article 50 notification letter, annotated',
 
   // TWITTER
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
   twitterCreator: '@ft',
-  tweetText: 'The full text of the EU guidance on the Brexit negotiations, ' +
-    'annotated by FT journalists #brexit',
+  tweetText: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
   twitterHeadline: 'The full text of the EU guidance on the Brexit negotiations',
 
   // FACEBOOK
   facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae38e8ce4-25ef-11e7-a34a-538b4cb30025?source=ig&width=1200&fit=scale-down',
-  facebookHeadline: 'The full text of the EU guidance on the Brexit negotiations',
+  facebookHeadline: 'How to read between the lines of Rod Rosenstein’s recommendation to fire the FBI director',
 
   tracking: {
 
