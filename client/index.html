@@ -19,13 +19,32 @@
 <section data-o-grid-colspan="12 M10 Mcenter L8 Lpush1 Luncenter XL7">
   <div class="speech" data-annotation-text data-annotation-id="{{berthaId}}">
     <!-- Office of the Attorney General letterhead effect -->
-    <div style="text-align:left; position: relative; min-height:85px;">
-      <img src="images/Seal_of_the_United_States_Department_of_Justice.png" width="100" style="margin: 10px 0 0; position: relative">
-      <span style="font-family: Helvetica; color: #777; font-size: 0.8em; margin: 10px 0 0; position: absolute; top: 0; left: 110px"><strong>US Department of<br />Justice</strong></span>
+    <div style="float: left; width: 100%; margin: 10px 0 0; padding-bottom: 10px; border-bottom: 1px solid #505050">
+      <div style="display: inline-block; float: left; width: 50%; min-height: 100px; text-align: left">
+        <img src="images/Seal_of_the_United_States_Department_of_Justice.png" width="100">
+        <!-- <span style="font-family: Helvetica; color: #777; font-size: 0.8em; margin: 10px 0 0; position: absolute; top: 0; left: 110px"><strong>US Department of<br />Justice</strong></span> -->
+      </div>
+      <div style="display: inline-block; float:right; width: 48%; min-height: 100px">
+        <p>
+          <strong>U.S. Department of Justice</strong><br>
+          Office of the Deputy Attorney General
+        </p>
+        <!-- <p>Washington, D.C. 20530<br />May 9, 2017</p> -->
+      </div>
+    </div>
+    <div style="float: left; width: 100%; margin: 10px 0 0">
+      <div style="display: inline-block; width: 50%; height: 100%; text-align: left">
+        <p><small>The Deputy Attorney General</small></p>
+      </div>
+      <div style="display: inline-block; float:right; width: 48%; min-height: 100px">
+        <p>
+          <small>
+            <em>Washington, D.C. 20530</em>
+          </small>
+        </p>
+      </div>
     </div>
     <!-- End letterhead -->
-    <p style="text-align:center; font-size:0.8em; margin-top:0;"></p>
-    <p style="text-align:right;">Washington, D.C. 20530<br />May 9, 2017</p>
     {{ speech | safe }}
   </div>
 </section>
